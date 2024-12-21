@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Greetings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            text-align: center;
+            color: #fff;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .tree {
+            font-size: 2.5rem;
+            margin: 20px 0;
+            line-height: 1.2;
+        }
+        .gifts {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gift {
+            width: 60px;
+            height: 60px;
+            margin: 0 10px;
+            position: relative;
+            background: #ff5f6d;
+            border-radius: 5px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .gift:before, .gift:after {
+            content: '';
+            position: absolute;
+            background: #fff;
+            border-radius: 2px;
+        }
+        .gift:before {
+            width: 100%;
+            height: 10px;
+            top: 25px;
+        }
+        .gift:after {
+            width: 10px;
+            height: 100%;
+            left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Merry Christmas and a Happy New Year!</h1>
+    <div class="tree">
+        🎄<br>
+        🎁🎄🎁<br>
+        🎁🎁🎄🎁🎁
+    </div>
+    <div class="gifts">
+        <div class="gift"></div>
+        <div class="gift"></div>
+        <div class="gift"></div>
+    </div>
+</body>
+</html>
